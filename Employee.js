@@ -9,27 +9,7 @@ class Employee {
     this.title=title
     this.salary=salary
   }
-  get empoyleeName(){
-    return this.name
-  }
-  set employeeName(name){
-    return this.name=name
-  }
-
-  get employeetitle(){
-    return this.title
-  }
-  set employeeTitle(title){
-    return this.title=title
-  }
-
-  get employeeSalary(){
-    return this.salary
-  }
-  set employeeSalary(salary){
-    return this.salary=salary
-  }
-
+  
   promote(title, salary){
     this.title=title
     this.salary=salary
